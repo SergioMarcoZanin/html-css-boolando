@@ -126,3 +126,20 @@ h3{
     padding: 5px;
     color: white;
 }
+
+.prima:hover {
+    display: none;
+}
+
+.seconda:hover {
+    display: block;
+}
+
+.prima{
+    display: block;
+}
+
+.seconda{
+    display: none;
+    display: inline-block;
+}
