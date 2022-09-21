@@ -13,6 +13,7 @@ header{
     align-items: center;
     padding: 15px;
     background-color: #FF6900;
+    
 }
 .container{
     max-width: 1200px;
@@ -62,6 +63,8 @@ i{
     width: 33%;
     text-align: left;
     margin-top: 35px;
+    position: relative;
+   
 }
 section{
     display: block;
@@ -78,4 +81,12 @@ section{
 .wrong-price{
     text-decoration: line-through;
     color: black;
+}
+
+.heart{
+    position: absolute;
+    top: 15px;
+    left: 340px;
+    right: 0px;
+    background-color: white;
 }
