@@ -1,0 +1,57 @@
+/* COMMON */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+    align-items: center;
+    padding: 15px;
+    background-color: #FF6900;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;  
+    color: white;
+}
+
+.boolean{
+    width: 120px;
+    height: 30px;
+}
+
+nav{
+    display: block;
+}
+
+.main-nav{
+    width: 10%;
+    text-align: left;
+}
+.main-nav ul{
+    display: flex;
+    list-style-type: none; 
+}
+.logo{
+    width: 80%;
+    text-align: center;
+}
+.icons{
+    width: 10%;
+    
+}
+li{
+    display: list-item;
+    padding: 5px;
+}
+i{
+    padding: 10px; 
+}
