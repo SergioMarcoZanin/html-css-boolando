@@ -13,6 +13,7 @@ header{
     align-items: center;
     padding: 15px;
     background-color: #FF6900;
+    margin-bottom: 30px;
     
 }
 .container{
@@ -47,6 +48,8 @@ nav{
 }
 .icons{
     width: 10%;
+   
+    text-align: right;
     
     
 }
@@ -62,12 +65,13 @@ i{
 .col{
     width: 33%;
     text-align: left;
-    margin-top: 35px;
+    
     position: relative;
    
 }
 section{
     display: block;
+    margin-bottom: 30px;
 }
 .col img{
     display: block;
@@ -89,4 +93,36 @@ section{
     left: 340px;
     right: 0px;
     background-color: white;
+}
+/* FOOTER */
+footer{
+    max-height: 500px;
+    background-color: #1A1A1A;
+    
+   
+}
+
+.footer-nav{
+    width: 50%;
+    text-align: left; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-nav ul{
+    display: flex;
+    list-style-type: none; 
+}
+.social{
+    width: 50%;
+    color: white;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    text-align: right;
+    
+}
+h3{
+    padding: 5px;
+    color: white;
 }
