@@ -55,3 +55,18 @@ li{
 i{
     padding: 10px; 
 }
+/* MAIN */
+.col{
+    
+    position: relative;
+    margin-top: 35px;
+}
+section{
+    display: block;
+}
+.col img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+}
